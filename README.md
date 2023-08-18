@@ -38,7 +38,7 @@ Ultimately, StackAI aims to create a better environment where human knowledge an
 
 - GCP VM Instance - App hosting
 
-- [Docker](./docker_compose.yaml) - Containerization of airflow, streamlit, and fastapi
+- [Docker](./docker-compose.yaml) - Containerization of airflow, streamlit, and fastapi
 
 - [testing](./unit_testing.py) - Unit testing with Pytest
 
