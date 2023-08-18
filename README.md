@@ -1,4 +1,4 @@
-# STACKAI 🤖👨‍💻
+# STACKAI 🤖👨‍💻 - course : Big Data Systems and Intelligent Analytics
 
 
 App Demo : [![Youtube](https://img.shields.io/badge/Youtube-808080?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=_rBbGJGeZG0)
