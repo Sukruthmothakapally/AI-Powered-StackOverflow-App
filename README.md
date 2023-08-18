@@ -20,6 +20,31 @@ Advanced AI models such as OpenAI and Sentence Transformer were fine tuned to pr
 Ultimately, StackAI aims to create a better environment where human knowledge and AI work together to boost innovation and growth.
 
 
+# Tech Stack :
+
+- Openai (text-davinci-003 , gpt-3.5-turbo) and SentenceTransformer (distilbert-base-nli-stsb-mean-tokens) - Fine tuned AI models to perform StackAI tasks
+
+- [Streamlit](./streamlit) - Front end User Interface
+
+- [FastAPI](./fastapi) - Backend to make API calls between Streamlit, database, and the AI models
+
+- [Airflow](.airflow) - Data pipeline automation
+
+- [Terraform](.pipeline/terraform) - GCP infrastructure automation
+
+- GCP BigQuery - Data warehouse
+
+- GCP CloudSQL - Postgres Database to store user credentials
+
+- GCP VM Instance - App hosting
+
+- [Docker](./docker_compose.yaml) - Containerization of airflow, streamlit, and fastapi
+
+- [testing](./unit_testing.py) - Unit testing with Pytest
+
+- [Great Expectations](./airflow/great_expectations) - Data validation
+
+
 ## Project Goals :dart:
 
 The goal of StackAI is to rejuvenate community engagement on Stack Overflow by integrating advanced AI features. The platform presents relevant questions from Stack Overflow’s repository and generates reliable responses backed by human answers. StackAI aims to create an environment where human knowledge and AI work together to boost innovation and growth.
