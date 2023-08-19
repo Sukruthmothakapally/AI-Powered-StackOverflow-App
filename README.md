@@ -1,4 +1,4 @@
-# STACKAI 🤖👨‍💻 - course : Big Data Systems and Intelligent Analytics
+# STACKAI 🤖👨‍💻 | course : Big Data Systems and Intelligent Analytics | Northeastern University
 
 
 App Demo : [![Youtube](https://img.shields.io/badge/Youtube-808080?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=_rBbGJGeZG0)
@@ -154,4 +154,3 @@ terraform destroy --auto-approve
 ```bash
 docker compose down
 ```
-
